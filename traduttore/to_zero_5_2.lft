@@ -1,0 +1,11 @@
+/* comment **/
+read[x,y];
+conditional [option (|| < x - y 10 > x +(y,10)) do print[100]] end;
+conditional [
+	option (> x y) do while (> x 0) {assign - x 1 to x; print[x]}
+	option (< x y) do while (> y 0) {assign - y 1 to y; print[y]}
+	]
+	else print[111]
+	end;
+assign 5 to a,b;
+print[x,y,*(a,b,10)]

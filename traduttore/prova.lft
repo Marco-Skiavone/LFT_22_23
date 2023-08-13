@@ -1,0 +1,26 @@
+print[*(3,4,+(*(1,2), - 7 6)), 1];
+read[x, y, z];
+assign 10 to _max;
+print[x, y, z];
+conditional[
+	option (> x y) do assign x to _max
+	option (> y _max) do assign y to _max
+	option (> z _max) do {
+		assign z to _max;
+		conditional[
+			option (> 3 z) do print[z]
+			option (< z 3) do {
+				assign /3 3 to _max;
+				print[9]			
+			}		
+		]else 
+			print[8] 			/*stampa z = _max */
+		end
+	}
+] else {
+	assign 12 to _max;
+	print[_max]	/* stampa -1 */
+}
+end;
+print[6];
+print[_max]

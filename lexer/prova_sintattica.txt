@@ -1,0 +1,22 @@
+
+assign (10 + 3) to ___a;
+assign (25/ 2) > 10 to is_12_Maggiore_Di_10;
+read(arr[0]);
+assign 50 to arr[0];	// praoeejaidawdw+*qdw/*/
+do{
+	 assign (arr[0]+1) to arr[0];
+} while(arr[0] <> 56);
+	
+print(arr[0] == 56);
+/* wd//
+/////*/
+
+//aefduvwbnadfghjklkdjhghjk/*
+
+000000010;
+
+//adhgajk
+/*a*/
+/**/
+
+assign __1234 to ___1;

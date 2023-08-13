@@ -1,0 +1,5 @@
+attenzione al parser 3.2 nel punto in cui 
+	stat-> cond.....
+
+come segnato dalle slide 4.3 si tratta di un caso di fattorizzazione necessaria.
+Non è stato applicato per non aggiungere ulteriori metodi al parser.

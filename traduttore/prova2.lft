@@ -1,0 +1,9 @@
+read[x,y,z];
+assign 0 to i;
+while(< i 10) {
+	print[x,y,z,i, 0];
+	assign +(y,x) to y;
+	assign +(i, 1) to i
+};
+print[11, 0];
+print[x,y,i]
