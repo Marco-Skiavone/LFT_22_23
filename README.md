@@ -5,4 +5,4 @@ Eliminerò tutti i file ".class" che andranno ricreati per far partire il valuta
 
 
 ### **NB:**
-Forse mancano le guide della grammatica.
+Mancano le guide della grammatica.
